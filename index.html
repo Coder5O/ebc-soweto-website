@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evangelical Bible Church Soweto | Windhoek, Namibia</title>
+  <meta name="description" content="Evangelical Bible Church (EBC) in Soweto, Katutura, Windhoek, Namibia. A Christ-centered, Bible-believing fellowship dedicated to worship, preaching God's Word, and Christian community.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/church_profile.png">
+  
+  <!-- Google Fonts: DM Serif Display & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ebc: {
+              // Exact church building colors:
+              // Terracotta tiles of the church roof:
+              terracotta: '#B84A22',
+              terracottaDark: '#943815',
+              terracottaLight: '#D46338',
+              terracottaMuted: '#F6EAE4',
+              // Rich dark timber of the sanctuary ceiling and pulpit:
+              timber: '#1E140E',
+              timberLight: '#2D1F17',
+              timberMuted: '#423025',
+              // Sun-washed desert sand & cream of the church walls:
+              sand: '#FBF8F3',
+              sandDark: '#EFE7DA',
+              sandBorder: '#E2D6C3',
+              // Golden sun / brass accent:
+              gold: '#C58933',
+              goldLight: '#E2A44B',
+              // Charcoal text:
+              textMain: '#261F1B',
+              textMuted: '#685D56'
+            }
+          },
+          fontFamily: {
+            serif: ['"DM Serif Display"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Warm, authentic church building palette styling */
+    .bg-timber-gradient {
+      background: linear-gradient(135deg, #1C120C 0%, #2A1C14 50%, #38251B 100%);
+    }
+    .bg-terracotta-gradient {
+      background: linear-gradient(135deg, #B84A22 0%, #993B17 100%);
+    }
+    .glass-timber {
+      background: rgba(45, 31, 23, 0.65);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(226, 214, 195, 0.15);
+    }
+    .glass-btn-timber {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1.5px solid rgba(255, 255, 255, 0.35);
+      transition: all 0.2s ease;
+    }
+    .glass-btn-timber:hover {
+      background: rgba(255, 255, 255, 0.22);
+      border-color: #ffffff;
+    }
+    .nav-scrolled {
+      background-color: rgba(251, 248, 243, 0.98) !important;
+      box-shadow: 0 4px 20px -2px rgba(30, 20, 14, 0.08);
+    }
+  </style>
+</head>
+<body class="font-sans text-ebc-textMain bg-white antialiased selection:bg-ebc-terracotta selection:text-white">
+
+  <!-- ========================================== -->
+  <!-- 1. TOP UTILITY BAR                         -->
+  <!-- ========================================== -->
+  <div class="bg-ebc-timber text-[#E2D6C3] text-xs py-2.5 px-4 sm:px-6 border-b border-[#3D291D]">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+      <!-- Left Info -->
+      <div class="flex items-center space-x-5">
+        <span class="flex items-center gap-1.5 hover:text-white transition">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5 text-ebc-terracottaLight"></i>
+          Soweto, Katutura, Windhoek, Namibia
+        </span>
+        <span class="text-white/20 hidden sm:inline">•</span>
+        <a href="mailto:ebcsowetonamibia@gmail.com" class="hidden sm:flex items-center gap-1.5 hover:text-white transition">
+          <i data-lucide="mail" class="w-3.5 h-3.5 text-ebc-terracottaLight"></i>
+          ebcsowetonamibia@gmail.com
+        </a>
+        <span class="text-white/20 hidden md:inline">•</span>
+        <span class="hidden md:flex items-center gap-1.5 text-ebc-goldLight font-medium">
+          <span class="w-2 h-2 rounded-full bg-ebc-gold animate-pulse"></span>
+          Sunday Service: 8:45 AM
+        </span>
+      </div>
+
+      <!-- Right Links -->
+      <div class="flex items-center space-x-4">
+        <div class="flex items-center space-x-3 text-[#C4B39F] mr-2">
+          <a href="https://facebook.com/EBCSowetoNamibia" target="_blank" rel="noopener" class="hover:text-white transition p-1" title="Facebook Page">
+            <i data-lucide="facebook" class="w-4 h-4"></i>
+          </a>
+          <a href="mailto:ebcsowetonamibia@gmail.com" class="hover:text-white transition p-1" title="Email Church">
+            <i data-lucide="mail" class="w-4 h-4"></i>
+          </a>
+        </div>
+        <a href="#visit" class="bg-ebc-terracotta hover:bg-ebc-terracottaDark text-white px-3.5 py-1 rounded-full font-semibold transition tracking-wide text-[11px] uppercase flex items-center gap-1 shadow-sm">
+          <span>First Time? Plan a Visit</span>
+          <i data-lucide="arrow-right" class="w-3 h-3"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- 2. MAIN NAVIGATION                         -->
+  <!-- ========================================== -->
+  <header id="site-header" class="sticky top-0 z-50 bg-ebc-sand/95 border-b border-ebc-sandBorder/70 backdrop-blur transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Church Brand / Logo -->
+        <a href="#" class="flex items-center gap-3.5 group">
+          <div class="w-12 h-12 rounded-2xl bg-ebc-timber overflow-hidden p-0.5 shadow-md flex items-center justify-center border-2 border-ebc-terracotta group-hover:scale-105 transition">
+            <img src="assets/church_profile.png" alt="EBC Soweto" class="w-full h-full object-cover rounded-xl">
+          </div>
+          <div>
+            <span class="font-serif text-xl sm:text-2xl font-bold tracking-tight text-ebc-timber block leading-none">
+              Evangelical Bible Church
+            </span>
+            <span class="text-xs font-bold tracking-wider text-ebc-terracotta uppercase block mt-1">
+              Soweto · Katutura, Namibia
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Menu -->
+        <nav class="hidden lg:flex items-center space-x-1">
+          <a href="#home" class="px-3.5 py-2 rounded-xl text-sm font-semibold text-ebc-timber hover:text-ebc-terracotta hover:bg-ebc-sandDark/50 transition">Home</a>
+          <a href="#about" class="px-3.5 py-2 rounded-xl text-sm font-semibold text-ebc-textMuted hover:text-ebc-terracotta hover:bg-ebc-sandDark/50 transition">About EBC</a>
+          <a href="#schedule" class="px-3.5 py-2 rounded-xl text-sm font-semibold text-ebc-textMuted hover:text-ebc-terracotta hover:bg-ebc-sandDark/50 transition">Service Times</a>
+          <a href="#media" class="px-3.5 py-2 rounded-xl text-sm font-semibold text-ebc-textMuted hover:text-ebc-terracotta hover:bg-ebc-sandDark/50 transition">Sermons & Media</a>
+          <a href="#ministries" class="px-3.5 py-2 rounded-xl text-sm font-semibold text-ebc-textMuted hover:text-ebc-terracotta hover:bg-ebc-sandDark/50 transition">Ministries</a>
+          <a href="#visit" class="px-3.5 py-2 rounded-xl text-sm font-semibold text-ebc-textMuted hover:text-ebc-terracotta hover:bg-ebc-sandDark/50 transition">Plan Visit</a>
+          <a href="#contact" class="px-3.5 py-2 rounded-xl text-sm font-semibold text-ebc-textMuted hover:text-ebc-terracotta hover:bg-ebc-sandDark/50 transition">Location</a>
+        </nav>
+
+        <!-- Right Action Button -->
+        <div class="hidden lg:flex items-center space-x-3">
+          <a href="#give" class="bg-ebc-terracotta hover:bg-ebc-terracottaDark text-white px-5 py-2.5 rounded-xl font-bold text-sm shadow-md hover:shadow-lg transition flex items-center gap-2">
+            <i data-lucide="heart-handshake" class="w-4 h-4"></i>
+            <span>Giving / Tithes</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Hamburger Button -->
+        <div class="lg:hidden flex items-center gap-2">
+          <a href="#give" class="bg-ebc-terracotta text-white px-3 py-1.5 rounded-lg text-xs font-bold sm:hidden">
+            Give
+          </a>
+          <button id="mobile-menu-btn" class="p-2.5 rounded-xl text-ebc-timber hover:bg-ebc-sandDark transition" aria-label="Open mobile menu">
+            <i data-lucide="menu" class="w-6 h-6"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Overlay & Panel -->
+    <div id="mobile-drawer" class="fixed inset-0 z-50 bg-black/60 opacity-0 pointer-events-none transition-opacity duration-300 lg:hidden">
+      <div class="absolute right-0 top-0 bottom-0 w-80 max-w-[85vw] bg-ebc-sand shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300" id="mobile-panel">
+        
+        <!-- Drawer Header -->
+        <div class="p-5 border-b border-ebc-sandBorder flex items-center justify-between bg-white">
+          <div class="flex items-center gap-2.5">
+            <img src="assets/church_profile.png" alt="EBC Soweto" class="w-8 h-8 rounded-lg object-cover">
+            <span class="font-serif font-bold text-ebc-timber text-lg">EBC Soweto</span>
+          </div>
+          <button id="close-drawer-btn" class="p-2 text-ebc-textMuted hover:text-ebc-timber rounded-lg hover:bg-gray-100 transition">
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+
+        <!-- Drawer Links -->
+        <div class="flex-1 overflow-y-auto py-4 px-5 space-y-1">
+          <a href="#home" class="mobile-link block px-4 py-3 rounded-xl text-base font-semibold text-ebc-timber hover:bg-ebc-sandDark">Home</a>
+          <a href="#about" class="mobile-link block px-4 py-3 rounded-xl text-base font-semibold text-ebc-textMain hover:bg-ebc-sandDark">About EBC</a>
+          <a href="#schedule" class="mobile-link block px-4 py-3 rounded-xl text-base font-semibold text-ebc-textMain hover:bg-ebc-sandDark">Service Times</a>
+          <a href="#media" class="mobile-link block px-4 py-3 rounded-xl text-base font-semibold text-ebc-textMain hover:bg-ebc-sandDark">Sermons & Media</a>
+          <a href="#ministries" class="mobile-link block px-4 py-3 rounded-xl text-base font-semibold text-ebc-textMain hover:bg-ebc-sandDark">Ministries</a>
+          <a href="#visit" class="mobile-link block px-4 py-3 rounded-xl text-base font-semibold text-ebc-textMain hover:bg-ebc-sandDark">Plan Your Visit</a>
+          <a href="#give" class="mobile-link block px-4 py-3 rounded-xl text-base font-semibold text-ebc-textMain hover:bg-ebc-sandDark">Giving / Tithes</a>
+          <a href="#contact" class="mobile-link block px-4 py-3 rounded-xl text-base font-semibold text-ebc-textMain hover:bg-ebc-sandDark">Location & Map</a>
+        </div>
+
+        <!-- Drawer Footer -->
+        <div class="p-5 border-t border-ebc-sandBorder bg-white">
+          <a href="#visit" class="block w-full py-3 bg-ebc-terracotta text-white text-center rounded-xl font-bold mb-3 shadow">
+            Plan Your Visit This Sunday
+          </a>
+          <div class="text-center text-xs text-ebc-textMuted">
+            <p>Soweto, Katutura • Windhoek</p>
+            <p class="mt-1">ebcsowetonamibia@gmail.com</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- 3. HERO SECTION — SLEEK FULL-BLEED PHOTO  -->
+  <!-- ========================================== -->
+  <section id="home" class="relative h-screen min-h-[600px] flex flex-col text-white overflow-hidden">
+
+    <!-- Full-bleed church photo background — zoomed out and anchored to emphasize the building structure -->
+    <div class="absolute inset-0 bg-no-repeat transition-all duration-700" style="background-image: url('assets/church_banner.png'); background-size: cover; background-position: center bottom;"></div>
+
+    <!-- Smooth dark gradient overlay to keep text crisp while keeping the building visible -->
+    <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/45 to-black/75"></div>
+
+    <!-- Centred church identity — upper portion of the screen -->
+    <div class="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-4 sm:px-8 pb-36">
+
+      <!-- Eyebrow — scripture, not location (location is already in the nav & top bar) -->
+      <span class="inline-block mb-5 px-4 py-1.5 rounded-full border border-white/20 bg-white/8 text-[11px] font-semibold tracking-[0.15em] uppercase text-amber-200/80 backdrop-blur-sm">
+        Matthew 18:20 · &ldquo;Where two or three gather in my name&rdquo;
+      </span>
+
+      <!-- Church name -->
+      <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight" style="text-shadow: 0 2px 24px rgba(0,0,0,0.85), 0 1px 4px rgba(0,0,0,0.9);">
+        Evangelical<br>
+        <span class="italic text-amber-200">Bible Church</span>
+      </h1>
+
+      <!-- Single subtle tagline -->
+      <p class="mt-5 text-base sm:text-lg text-white/75 font-light max-w-sm tracking-wide" style="text-shadow: 0 1px 8px rgba(0,0,0,0.8);">
+        A house of prayer, grounded in the Word.
+      </p>
+
+      <!-- Scroll cue -->
+      <a href="#schedule" class="mt-10 flex flex-col items-center gap-1.5 text-white/50 hover:text-white/90 transition group" aria-label="Scroll to service times">
+        <span class="text-[11px] font-semibold uppercase tracking-widest">Explore</span>
+        <i data-lucide="chevron-down" class="w-5 h-5 animate-bounce"></i>
+      </a>
+    </div>
+
+    <!-- ── SCHEDULE STRIP pinned to bottom of hero ── -->
+    <div class="relative z-10 w-full backdrop-blur-md bg-black/50 border-t border-white/10">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+
+        <!-- Label row -->
+        <p class="text-center text-[10px] font-bold uppercase tracking-[0.2em] text-ebc-goldLight mb-3">
+          Weekly Gatherings
+        </p>
+
+        <!-- 5 service slots in a responsive flex row -->
+        <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 sm:gap-x-10">
+
+          <!-- Sunday Service -->
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-ebc-terracottaLight shrink-0"></span>
+            <div class="text-center sm:text-left">
+              <span class="block text-[10px] uppercase tracking-widest text-white/55 font-semibold">Sunday</span>
+              <span class="block text-sm font-bold text-white">08:45 AM · Morning Service</span>
+            </div>
+          </div>
+
+          <!-- Sunday Bible Study -->
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-ebc-terracottaLight shrink-0"></span>
+            <div class="text-center sm:text-left">
+              <span class="block text-[10px] uppercase tracking-widest text-white/55 font-semibold">Sunday</span>
+              <span class="block text-sm font-bold text-white">05:00 PM · Bible Study</span>
+            </div>
+          </div>
+
+          <!-- Thursday Prayer -->
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-ebc-gold shrink-0"></span>
+            <div class="text-center sm:text-left">
+              <span class="block text-[10px] uppercase tracking-widest text-white/55 font-semibold">Thursday</span>
+              <span class="block text-sm font-bold text-white">06:00 PM · Prayer Meeting</span>
+            </div>
+          </div>
+
+          <!-- Friday Youth -->
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-ebc-gold shrink-0"></span>
+            <div class="text-center sm:text-left">
+              <span class="block text-[10px] uppercase tracking-widest text-white/55 font-semibold">Friday</span>
+              <span class="block text-sm font-bold text-white">05:30 PM · Youth Meeting</span>
+            </div>
+          </div>
+
+          <!-- Saturday Young Adults -->
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-ebc-gold shrink-0"></span>
+            <div class="text-center sm:text-left">
+              <span class="block text-[10px] uppercase tracking-widest text-white/55 font-semibold">Saturday</span>
+              <span class="block text-sm font-bold text-white">06:00 PM · Young Adults</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ========================================== -->
+  <!-- 4. WEEKLY RHYTHM & SERVICE TIMES           -->
+  <!-- ========================================== -->
+  <section id="schedule" class="py-16 bg-ebc-sand border-b border-ebc-sandBorder">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+        <div>
+          <span class="text-xs font-bold tracking-widest text-ebc-terracotta uppercase block mb-1">
+            Weekly Gatherings
+          </span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-ebc-timber">
+            Join Us in Worship & Prayer
+          </h2>
+        </div>
+        <p class="text-ebc-textMuted text-sm max-w-md">
+          Whether you are visiting for the first time or seeking a spiritual home, you are welcome to gather with us in Soweto.
+        </p>
+      </div>
+
+      <!-- Schedule Cards Grid (5 Official Gatherings) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Gathering 1: Sunday Morning Service (Main Highlight) -->
+        <div class="p-7 rounded-3xl bg-ebc-timber text-white shadow-xl border-2 border-ebc-terracotta flex flex-col justify-between relative overflow-hidden lg:col-span-2">
+          <div class="absolute top-0 right-0 bg-ebc-terracotta text-white text-[11px] font-bold px-4 py-1 rounded-bl-2xl uppercase tracking-wider shadow">
+            Main Sunday Gathering
+          </div>
+          <div>
+            <div class="flex items-center gap-3 mb-4">
+              <span class="text-xs font-bold px-3 py-1 rounded-full bg-white/15 text-ebc-goldLight">
+                Sunday Morning
+              </span>
+              <span class="text-2xl sm:text-3xl font-bold text-ebc-goldLight font-serif">08:45 AM</span>
+            </div>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white mb-3">Sunday Morning Worship Service</h3>
+            <p class="text-sm sm:text-base text-[#D7C9BD] leading-relaxed max-w-2xl font-light">
+              Our central weekly assembly featuring congregational singing of psalms, hymns, and vernacular choruses, pastoral intercession, and faithful verse-by-verse preaching from God's Word.
+            </p>
+          </div>
+          <div class="mt-6 pt-5 border-t border-white/10 flex items-center justify-between text-xs sm:text-sm text-[#C4B39F]">
+            <span class="flex items-center gap-1.5">
+              <i data-lucide="map-pin" class="w-4 h-4 text-ebc-terracottaLight"></i>
+              Main Sanctuary, Soweto Katutura
+            </span>
+            <span class="font-bold text-ebc-gold">Starts at 8:45 AM</span>
+          </div>
+        </div>
+
+        <!-- Gathering 2: Sunday Bible Study -->
+        <div class="p-7 rounded-3xl bg-white border border-ebc-sandBorder shadow-sm hover:border-ebc-terracotta/50 transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-bold px-3 py-1 rounded-full bg-amber-100 text-amber-900">
+                Sunday Evening
+              </span>
+              <span class="text-xl font-bold text-ebc-terracotta font-serif">5:00 PM</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-ebc-timber mb-2">Sunday Bible Study</h3>
+            <p class="text-xs sm:text-sm text-ebc-textMuted leading-relaxed">
+              In-depth, interactive scripture exposition every Sunday evening. An edifying time of doctrine, biblical discussions, and theological growth for all believers.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between text-xs text-ebc-textMuted">
+            <span>Main Hall & Sanctuary</span>
+            <span class="font-bold text-ebc-timber">17:00 (5:00 PM)</span>
+          </div>
+        </div>
+
+        <!-- Gathering 3: Thursday Prayer Meeting -->
+        <div class="p-7 rounded-3xl bg-white border border-ebc-sandBorder shadow-sm hover:border-ebc-terracotta/50 transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-bold px-3 py-1 rounded-full bg-orange-100 text-orange-900">
+                Thursday Evening
+              </span>
+              <span class="text-xl font-bold text-ebc-terracotta font-serif">6:00 PM</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-ebc-timber mb-2">Thursday Prayer Meeting</h3>
+            <p class="text-xs sm:text-sm text-ebc-textMuted leading-relaxed">
+              Midweek corporate prayer gathering. We join our hearts to intercede for our church families, our local community in Soweto, the sick, and the nation of Namibia.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between text-xs text-ebc-textMuted">
+            <span>Sanctuary & Online</span>
+            <span class="font-bold text-ebc-timber">18:00 (6:00 PM)</span>
+          </div>
+        </div>
+
+        <!-- Gathering 4: Friday Youth Meeting -->
+        <div class="p-7 rounded-3xl bg-white border border-ebc-sandBorder shadow-sm hover:border-ebc-terracotta/50 transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-bold px-3 py-1 rounded-full bg-emerald-100 text-emerald-900">
+                Friday Evening
+              </span>
+              <span class="text-xl font-bold text-ebc-terracotta font-serif">5:30 PM</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-ebc-timber mb-2">Friday Youth Meeting</h3>
+            <p class="text-xs sm:text-sm text-ebc-textMuted leading-relaxed">
+              Vibrant discipleship, praise, and fellowship for teenagers and youth. Equipping young minds to walk boldly in biblical truth and resist peer pressure.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between text-xs text-ebc-textMuted">
+            <span>Youth Center / Hall</span>
+            <span class="font-bold text-ebc-timber">17:30 (5:30 PM)</span>
+          </div>
+        </div>
+
+        <!-- Gathering 5: Saturday Young Adults Meeting -->
+        <div class="p-7 rounded-3xl bg-white border border-ebc-sandBorder shadow-sm hover:border-ebc-terracotta/50 transition flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-bold px-3 py-1 rounded-full bg-stone-100 text-stone-900">
+                Saturday Evening
+              </span>
+              <span class="text-xl font-bold text-ebc-terracotta font-serif">6:00 PM</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-ebc-timber mb-2">Young Adults Meeting</h3>
+            <p class="text-xs sm:text-sm text-ebc-textMuted leading-relaxed">
+              Targeted fellowship, career mentorship, and theological studies for university students and young working professionals seeking to honor Christ.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between text-xs text-ebc-textMuted">
+            <span>Fellowship Hall</span>
+            <span class="font-bold text-ebc-timber">18:00 (6:00 PM)</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- 5. ABOUT EBC SOWETO ("WHO WE ARE")         -->
+  <!-- ========================================== -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        
+        <!-- Left Column: Visual Details (5 Cols) -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="p-8 rounded-3xl bg-ebc-sand border border-ebc-sandBorder relative">
+            <span class="text-xs font-bold uppercase tracking-widest text-ebc-terracotta block mb-2">Katutura • Windhoek</span>
+            <h3 class="font-serif text-2xl font-bold text-ebc-timber mb-4">Rooted in God's Grace</h3>
+            <p class="text-sm text-ebc-textMuted leading-relaxed">
+              For decades, Evangelical Bible Church has served as a beacon of Christ's light in the Soweto community of Katutura, bringing together believers across different backgrounds in unity of faith.
+            </p>
+            
+            <div class="mt-6 pt-6 border-t border-ebc-sandBorder space-y-3">
+              <div class="flex items-center gap-3 text-sm text-ebc-timber font-medium">
+                <i data-lucide="check-circle" class="w-4 h-4 text-ebc-terracotta shrink-0"></i>
+                <span>Sound Biblical Preaching & Teaching</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm text-ebc-timber font-medium">
+                <i data-lucide="check-circle" class="w-4 h-4 text-ebc-terracotta shrink-0"></i>
+                <span>English & Local Language Fellowship</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm text-ebc-timber font-medium">
+                <i data-lucide="check-circle" class="w-4 h-4 text-ebc-terracotta shrink-0"></i>
+                <span>Passionate Ministry to Families & Youth</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Direct Facebook Community Link -->
+          <div class="p-5 rounded-2xl bg-ebc-terracotta text-white flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center">
+                <i data-lucide="users" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <span class="text-xs text-white/80 block">Active Congregation</span>
+                <span class="text-sm font-bold">Follow Our Facebook Page</span>
+              </div>
+            </div>
+            <a href="https://facebook.com/EBCSowetoNamibia" target="_blank" rel="noopener" class="px-3.5 py-1.5 rounded-lg bg-white text-ebc-terracotta text-xs font-bold hover:bg-gray-100 transition">
+              Visit →
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Column: Story & Convictions (7 Cols) -->
+        <div class="lg:col-span-7">
+          <span class="text-xs font-bold tracking-widest text-ebc-terracotta uppercase block mb-2">
+            About Our Fellowship
+          </span>
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-ebc-timber tracking-tight leading-tight mb-6">
+            Proclaiming Christ in the Community of Soweto
+          </h2>
+
+          <div class="space-y-4 text-ebc-textMuted text-base sm:text-lg leading-relaxed font-light">
+            <p>
+              <strong class="font-semibold text-ebc-timber">Evangelical Bible Church (EBC) Soweto</strong> is an evangelical church located in the historic and vibrant Soweto area of Katutura, Windhoek. We believe that the Holy Scriptures are the inspired and inerrant Word of God, profitable for teaching, reproof, correction, and training in righteousness.
+            </p>
+            <p>
+              Our weekly gatherings feature reverent congregational praise, heartfelt prayer for our community and nation, and the expository preaching of the Gospel. Whether singing in English or vernacular choruses, we are united by one Lord, one faith, and one baptism.
+            </p>
+          </div>
+
+          <!-- 3 Characteristic Cards -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
+            <div class="p-4 rounded-2xl bg-ebc-sand border border-ebc-sandBorder text-center">
+              <div class="w-10 h-10 rounded-xl bg-ebc-terracotta/10 text-ebc-terracotta mx-auto flex items-center justify-center mb-2 font-bold">
+                <i data-lucide="book" class="w-5 h-5"></i>
+              </div>
+              <h4 class="font-bold text-sm text-ebc-timber">Biblical Truth</h4>
+              <p class="text-[11px] text-ebc-textMuted mt-1">Grounded firmly in the authority of God's Word.</p>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-ebc-sand border border-ebc-sandBorder text-center">
+              <div class="w-10 h-10 rounded-xl bg-ebc-terracotta/10 text-ebc-terracotta mx-auto flex items-center justify-center mb-2 font-bold">
+                <i data-lucide="heart" class="w-5 h-5"></i>
+              </div>
+              <h4 class="font-bold text-sm text-ebc-timber">Warm Fellowship</h4>
+              <p class="text-[11px] text-ebc-textMuted mt-1">Loving support across all generations and families.</p>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-ebc-sand border border-ebc-sandBorder text-center">
+              <div class="w-10 h-10 rounded-xl bg-ebc-terracotta/10 text-ebc-terracotta mx-auto flex items-center justify-center mb-2 font-bold">
+                <i data-lucide="globe" class="w-5 h-5"></i>
+              </div>
+              <h4 class="font-bold text-sm text-ebc-timber">Gospel Mission</h4>
+              <p class="text-[11px] text-ebc-textMuted mt-1">Sharing the good news of Christ throughout Windhoek.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- 6. SERMONS & MEDIA (FACEBOOK LIVE HUB)     -->
+  <!-- ========================================== -->
+  <section id="media" class="py-20 bg-ebc-sand/50 border-t border-ebc-sandBorder">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs font-bold tracking-widest text-ebc-terracotta uppercase block mb-2">
+          Sermons & Livestreams
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-ebc-timber tracking-tight">
+          Watch & Listen to God's Word
+        </h2>
+        <p class="text-ebc-textMuted text-sm sm:text-base mt-3">
+          Our services are broadcast live every Sunday from our sanctuary in Soweto to our church community in Namibia and beyond.
+        </p>
+      </div>
+
+      <!-- Sermon Video Showcase Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Video 1 (Live Service Highlight) -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition group border border-ebc-sandBorder flex flex-col">
+          <div class="relative overflow-hidden aspect-video bg-ebc-timber">
+            <img src="assets/church_sanctuary.png" alt="Sermon broadcast" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/25 transition">
+              <a href="https://facebook.com/EBCSowetoNamibia" target="_blank" rel="noopener" class="w-14 h-14 rounded-full bg-ebc-terracotta text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition">
+                <i data-lucide="play" class="w-6 h-6 fill-current translate-x-0.5"></i>
+              </a>
+            </div>
+            <div class="absolute top-3 left-3 bg-red-600 text-white text-[10px] font-bold uppercase px-2.5 py-1 rounded-full flex items-center gap-1.5 shadow">
+              <span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
+              Live Broadcast
+            </div>
+          </div>
+          
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-ebc-terracotta block mb-1">
+                Sunday Morning Service
+              </span>
+              <h3 class="font-serif text-xl font-bold text-ebc-timber mb-2 group-hover:text-ebc-terracotta transition">
+                Walking by Faith in Christ Jesus
+              </h3>
+              <p class="text-xs text-ebc-textMuted mb-4 flex items-center gap-2">
+                <i data-lucide="book-open" class="w-3.5 h-3.5 text-ebc-terracotta"></i>
+                <span>Romans 8 • EBC Pulpit</span>
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-gray-100 flex items-center justify-between text-xs text-ebc-textMuted">
+              <span>Sunday 8:45 AM</span>
+              <a href="https://facebook.com/EBCSowetoNamibia" target="_blank" rel="noopener" class="text-ebc-terracotta font-bold hover:underline flex items-center gap-1">
+                <span>Watch Stream</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition group border border-ebc-sandBorder flex flex-col">
+          <div class="relative overflow-hidden aspect-video bg-ebc-timber">
+            <img src="assets/church_banner.png" alt="Sermon series" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/25 transition">
+              <a href="https://facebook.com/EBCSowetoNamibia" target="_blank" rel="noopener" class="w-14 h-14 rounded-full bg-ebc-terracotta text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition">
+                <i data-lucide="play" class="w-6 h-6 fill-current translate-x-0.5"></i>
+              </a>
+            </div>
+            <div class="absolute top-3 left-3 bg-ebc-timber/90 text-white text-[10px] font-bold uppercase px-2.5 py-1 rounded-full shadow">
+              Expository Preaching
+            </div>
+          </div>
+          
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-ebc-gold block mb-1">
+                Gospel of Grace Series
+              </span>
+              <h3 class="font-serif text-xl font-bold text-ebc-timber mb-2 group-hover:text-ebc-terracotta transition">
+                The Foundation of the Christian Life
+              </h3>
+              <p class="text-xs text-ebc-textMuted mb-4 flex items-center gap-2">
+                <i data-lucide="book-open" class="w-3.5 h-3.5 text-ebc-terracotta"></i>
+                <span>Ephesians 2:1–10 • EBC Preaching</span>
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-gray-100 flex items-center justify-between text-xs text-ebc-textMuted">
+              <span>Soweto Sanctuary</span>
+              <a href="https://facebook.com/EBCSowetoNamibia" target="_blank" rel="noopener" class="text-ebc-terracotta font-bold hover:underline flex items-center gap-1">
+                <span>Watch Stream</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 3: Midweek Bible Study -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition group border border-ebc-sandBorder flex flex-col">
+          <div class="relative overflow-hidden aspect-video bg-ebc-timberLight flex items-center justify-center p-6 text-center">
+            <div class="space-y-2">
+              <div class="w-12 h-12 rounded-2xl bg-ebc-terracotta/20 text-ebc-goldLight mx-auto flex items-center justify-center">
+                <i data-lucide="book" class="w-6 h-6"></i>
+              </div>
+              <p class="text-white font-serif text-lg font-bold">Midweek Prayer & Study</p>
+              <p class="text-xs text-gray-300">Wednesday 18:00</p>
+            </div>
+            <div class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+              <a href="https://facebook.com/EBCSowetoNamibia" target="_blank" rel="noopener" class="w-14 h-14 rounded-full bg-ebc-terracotta text-white flex items-center justify-center shadow-lg group-hover:scale-110 transition">
+                <i data-lucide="play" class="w-6 h-6 fill-current translate-x-0.5"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-ebc-terracotta block mb-1">
+                Midweek Discipleship
+              </span>
+              <h3 class="font-serif text-xl font-bold text-ebc-timber mb-2 group-hover:text-ebc-terracotta transition">
+                Prayer in Times of Difficulty
+              </h3>
+              <p class="text-xs text-ebc-textMuted mb-4 flex items-center gap-2">
+                <i data-lucide="book-open" class="w-3.5 h-3.5 text-ebc-terracotta"></i>
+                <span>Psalm 46 • Prayer Ministry</span>
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-gray-100 flex items-center justify-between text-xs text-ebc-textMuted">
+              <span>Wednesday 18:00</span>
+              <a href="https://facebook.com/EBCSowetoNamibia" target="_blank" rel="noopener" class="text-ebc-terracotta font-bold hover:underline flex items-center gap-1">
+                <span>Watch Stream</span>
+                <i data-lucide="external-link" class="w-3 h-3"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Action Button -->
+      <div class="mt-12 text-center">
+        <a href="https://facebook.com/EBCSowetoNamibia/videos" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-ebc-timber text-white hover:bg-ebc-timberLight font-semibold text-sm transition shadow">
+          <i data-lucide="video" class="w-4 h-4 text-ebc-goldLight"></i>
+          <span>View All Video Broadcasts on Facebook →</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- 7. CHURCH MINISTRIES                       -->
+  <!-- ========================================== -->
+  <section id="ministries" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs font-bold tracking-widest text-ebc-terracotta uppercase block mb-2">
+          Church Life
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-ebc-timber tracking-tight">
+          Ministries at EBC Soweto
+        </h2>
+        <p class="text-ebc-textMuted text-sm sm:text-base mt-3">
+          Serving God and building one another up through every stage of life.
+        </p>
+      </div>
+
+      <!-- Ministries Grid (6 Cards) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Ministry 1 -->
+        <div class="p-8 rounded-3xl bg-ebc-sand border border-ebc-sandBorder hover:border-ebc-terracotta/40 hover:shadow-lg transition group">
+          <div class="w-12 h-12 rounded-2xl bg-ebc-terracotta/10 text-ebc-terracotta flex items-center justify-center mb-6 group-hover:scale-110 transition">
+            <i data-lucide="sparkles" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-ebc-timber mb-2">Children's Sunday School</h3>
+          <p class="text-ebc-textMuted text-sm leading-relaxed mb-4">
+            Teaching the stories and gospel truths of the Bible to our young children with dedicated Sunday school leaders at 09:00 AM.
+          </p>
+          <span class="text-xs font-bold text-ebc-terracotta">Sunday 09:00 AM • Ages 3–12</span>
+        </div>
+
+        <!-- Ministry 2: Youth -->
+        <div class="p-8 rounded-3xl bg-ebc-sand border border-ebc-sandBorder hover:border-ebc-terracotta/40 hover:shadow-lg transition group">
+          <div class="w-12 h-12 rounded-2xl bg-ebc-terracotta/10 text-ebc-terracotta flex items-center justify-center mb-6 group-hover:scale-110 transition">
+            <i data-lucide="flame" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-ebc-timber mb-2">Youth Fellowship</h3>
+          <p class="text-ebc-textMuted text-sm leading-relaxed mb-4">
+            Discipleship, fellowship, and scripture study for teenagers and high school youth navigating life in Christ.
+          </p>
+          <span class="text-xs font-bold text-ebc-terracotta">Fridays at 5:30 PM • Youth Hall</span>
+        </div>
+
+        <!-- Ministry 3: Young Adults -->
+        <div class="p-8 rounded-3xl bg-ebc-sand border border-ebc-sandBorder hover:border-ebc-terracotta/40 hover:shadow-lg transition group">
+          <div class="w-12 h-12 rounded-2xl bg-ebc-terracotta/10 text-ebc-terracotta flex items-center justify-center mb-6 group-hover:scale-110 transition">
+            <i data-lucide="compass" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-ebc-timber mb-2">Young Adults Fellowship</h3>
+          <p class="text-ebc-textMuted text-sm leading-relaxed mb-4">
+            Fellowship, career mentorship, and theological studies for university students and young working professionals.
+          </p>
+          <span class="text-xs font-bold text-ebc-terracotta">Saturdays at 6:00 PM • Fellowship Hall</span>
+        </div>
+
+        <!-- Ministry 4: Women's Ministry -->
+        <div class="p-8 rounded-3xl bg-ebc-sand border border-ebc-sandBorder hover:border-ebc-terracotta/40 hover:shadow-lg transition group">
+          <div class="w-12 h-12 rounded-2xl bg-ebc-terracotta/10 text-ebc-terracotta flex items-center justify-center mb-6 group-hover:scale-110 transition">
+            <i data-lucide="heart" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-ebc-timber mb-2">Women's Ministry</h3>
+          <p class="text-ebc-textMuted text-sm leading-relaxed mb-4">
+            Encouraging women in biblical godliness, prayer support, visitation, and practical care for families in our church and neighborhood.
+          </p>
+          <span class="text-xs font-bold text-ebc-terracotta">Fellowship & Prayer Circles</span>
+        </div>
+
+        <!-- Ministry 5: Men's Ministry -->
+        <div class="p-8 rounded-3xl bg-ebc-sand border border-ebc-sandBorder hover:border-ebc-terracotta/40 hover:shadow-lg transition group">
+          <div class="w-12 h-12 rounded-2xl bg-ebc-terracotta/10 text-ebc-terracotta flex items-center justify-center mb-6 group-hover:scale-110 transition">
+            <i data-lucide="shield" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-ebc-timber mb-2">Men's Ministry</h3>
+          <p class="text-ebc-textMuted text-sm leading-relaxed mb-4">
+            Challenging men to be faithful husbands, loving fathers, and strong servant-leaders in the church and community.
+          </p>
+          <span class="text-xs font-bold text-ebc-terracotta">Men's Fellowship & Study</span>
+        </div>
+
+        <!-- Ministry 6: Worship & Music -->
+        <div class="p-8 rounded-3xl bg-ebc-sand border border-ebc-sandBorder hover:border-ebc-terracotta/40 hover:shadow-lg transition group">
+          <div class="w-12 h-12 rounded-2xl bg-ebc-terracotta/10 text-ebc-terracotta flex items-center justify-center mb-6 group-hover:scale-110 transition">
+            <i data-lucide="music" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-ebc-timber mb-2">Worship & Music</h3>
+          <p class="text-ebc-textMuted text-sm leading-relaxed mb-4">
+            Leading our congregation in reverent, Christ-centered praise with timeless hymns, psalms, and spirit-filled vernacular songs.
+          </p>
+          <span class="text-xs font-bold text-ebc-terracotta">Choir & Congregational Singing</span>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- 8. VISITOR EXPERIENCE ("PLAN YOUR VISIT")  -->
+  <!-- ========================================== -->
+  <section id="visit" class="py-20 bg-ebc-sand border-t border-ebc-sandBorder">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: What to Expect (7 Cols) -->
+        <div class="lg:col-span-7">
+          <span class="text-xs font-bold tracking-widest text-ebc-terracotta uppercase block mb-2">
+            First Time in Soweto?
+          </span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-ebc-timber tracking-tight mb-6">
+            What to Expect on Your Visit
+          </h2>
+          <p class="text-ebc-textMuted text-base sm:text-lg mb-8 leading-relaxed font-light">
+            We know visiting a new church can be unfamiliar. At Evangelical Bible Church Soweto, we welcome you with open arms.
+          </p>
+
+          <div class="space-y-4">
+            
+            <div class="p-5 rounded-2xl bg-white border border-ebc-sandBorder shadow-sm flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-ebc-terracotta/10 text-ebc-terracotta flex items-center justify-center shrink-0">
+                <i data-lucide="shirt" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-ebc-timber text-base">What Should I Wear?</h4>
+                <p class="text-xs sm:text-sm text-ebc-textMuted mt-1">
+                  You are welcome just as you are. Some members wear traditional dress, others wear smart casual or Sunday attire.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 rounded-2xl bg-white border border-ebc-sandBorder shadow-sm flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-ebc-terracotta/10 text-ebc-terracotta flex items-center justify-center shrink-0">
+                <i data-lucide="languages" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-ebc-timber text-base">Languages Spoken</h4>
+                <p class="text-xs sm:text-sm text-ebc-textMuted mt-1">
+                  Services are conducted with English and vernacular songs/fellowship (including Otjiherero). Everyone can participate comfortably.
+                </p>
+              </div>
+            </div>
+
+            <div class="p-5 rounded-2xl bg-white border border-ebc-sandBorder shadow-sm flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-ebc-terracotta/10 text-ebc-terracotta flex items-center justify-center shrink-0">
+                <i data-lucide="heart-handshake" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-ebc-timber text-base">Welcoming Ushers</h4>
+                <p class="text-xs sm:text-sm text-ebc-textMuted mt-1">
+                  Our ushers at the courtyard entrance will greet you, help you find seating, and answer any questions.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right: Pre-Visit Notification Form (5 Cols) -->
+        <div class="lg:col-span-5">
+          <div class="bg-white rounded-3xl p-8 shadow-lg border border-ebc-sandBorder">
+            <h3 class="font-serif text-2xl font-bold text-ebc-timber mb-2">Let Us Welcome You</h3>
+            <p class="text-xs sm:text-sm text-ebc-textMuted mb-6">
+              Let us know when you are planning to visit so we can prepare a friendly welcome!
+            </p>
+
+            <form id="visit-form" onsubmit="handleVisitSubmit(event)" class="space-y-4">
+              <div>
+                <label class="block text-xs font-bold uppercase text-ebc-timber mb-1">Your Full Name</label>
+                <input type="text" required placeholder="e.g. Maria Nuuyoma" class="w-full px-4 py-3 rounded-xl border border-ebc-sandBorder bg-ebc-sand/40 focus:outline-none focus:ring-2 focus:ring-ebc-terracotta/40 text-sm">
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold uppercase text-ebc-timber mb-1">WhatsApp / Phone Number</label>
+                <input type="tel" required placeholder="e.g. +264 81 123 4567" class="w-full px-4 py-3 rounded-xl border border-ebc-sandBorder bg-ebc-sand/40 focus:outline-none focus:ring-2 focus:ring-ebc-terracotta/40 text-sm">
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold uppercase text-ebc-timber mb-1">Planned Sunday Date</label>
+                <input type="date" required class="w-full px-4 py-3 rounded-xl border border-ebc-sandBorder bg-ebc-sand/40 focus:outline-none focus:ring-2 focus:ring-ebc-terracotta/40 text-sm text-gray-700">
+              </div>
+
+              <button type="submit" class="w-full py-3.5 bg-ebc-terracotta hover:bg-ebc-terracottaDark text-white font-bold rounded-xl shadow-md transition text-sm">
+                Submit & Plan My Visit →
+              </button>
+            </form>
+
+            <div id="visit-success" class="hidden mt-4 p-4 rounded-xl bg-orange-50 text-orange-900 text-xs text-center border border-orange-200">
+              🎉 <strong>Thank you!</strong> We have received your note and look forward to meeting you at EBC Soweto!
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- 9. GIVING & STEWARDSHIP (AUTHENTIC EBC)    -->
+  <!-- ========================================== -->
+  <section id="give" class="py-20 bg-timber-gradient text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="max-w-3xl mx-auto text-center mb-12">
+        <span class="text-xs font-bold tracking-widest text-ebc-goldLight uppercase block mb-2">
+          Faithful Stewardship
+        </span>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-4">
+          Giving Generously to the Lord's Work
+        </h2>
+        <p class="text-[#E6DBD1] text-base sm:text-lg leading-relaxed font-light">
+          Your tithes and offerings sustain our church building in Soweto, support preaching of the Word, and bring relief to members and neighbors in need.
+        </p>
+      </div>
+
+      <!-- Bank Transfer Information Card -->
+      <div class="max-w-xl mx-auto bg-white rounded-3xl p-8 text-ebc-textMain shadow-2xl border border-ebc-sandBorder">
+        <div class="flex items-center justify-between pb-4 border-b border-gray-100 mb-6">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-amber-100 text-ebc-terracotta flex items-center justify-center font-bold">
+              <i data-lucide="landmark" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <span class="text-xs uppercase font-bold text-gray-400 block">Bank Transfer (EFT Namibia)</span>
+              <h4 class="font-bold text-ebc-timber text-lg">Electronic Giving Details</h4>
+            </div>
+          </div>
+          <span class="text-xs font-bold bg-orange-100 text-orange-800 px-2.5 py-1 rounded-full">Namibia</span>
+        </div>
+
+        <div class="space-y-3.5 text-sm">
+          <div class="flex justify-between py-2 border-b border-gray-50">
+            <span class="text-ebc-textMuted font-medium">Account Name:</span>
+            <span class="font-bold text-ebc-timber">Evangelical Bible Church Soweto</span>
+          </div>
+          <div class="flex justify-between py-2 border-b border-gray-50">
+            <span class="text-ebc-textMuted font-medium">Location:</span>
+            <span class="font-bold text-ebc-timber">Windhoek, Namibia</span>
+          </div>
+          <div class="flex justify-between py-2 border-b border-gray-50">
+            <span class="text-ebc-textMuted font-medium">Recommended Ref:</span>
+            <span class="font-bold text-ebc-terracotta">Tithe / Offering / [Your Name]</span>
+          </div>
+        </div>
+
+        <div class="mt-6 pt-4 border-t border-gray-100 flex flex-col sm:flex-row gap-3">
+          <a href="mailto:ebcsowetonamibia@gmail.com?subject=Church%20Offering%20Inquiry" class="flex-1 py-3 text-center bg-ebc-terracotta hover:bg-ebc-terracottaDark text-white font-bold rounded-xl transition text-xs sm:text-sm">
+            Request Bank Details by Email
+          </a>
+          <a href="https://facebook.com/EBCSowetoNamibia" target="_blank" rel="noopener" class="flex-1 py-3 text-center bg-ebc-sand hover:bg-ebc-sandDark text-ebc-timber font-bold rounded-xl transition text-xs sm:text-sm flex items-center justify-center gap-1.5">
+            <i data-lucide="message-circle" class="w-4 h-4"></i>
+            <span>Inquire on Facebook</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- 10. LOCATION & CONTACT                     -->
+  <!-- ========================================== -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: Map Frame (6 Cols) -->
+        <div class="lg:col-span-6 rounded-3xl overflow-hidden shadow-xl border border-ebc-sandBorder h-96 relative bg-ebc-sand">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14745.289139824647!2d17.0426!3d-22.5255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c0b1bb2443a50d1%3A0x88439121d51a!2sSoweto%2C%20Katutura%2C%20Windhoek%2C%20Namibia!5e0!3m2!1sen!2szm!4v1694000000000" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Evangelical Bible Church Soweto Location">
+          </iframe>
+          <div class="absolute bottom-4 left-4 bg-white/95 backdrop-blur px-4 py-2.5 rounded-xl shadow border border-gray-200">
+            <span class="text-[11px] font-bold text-ebc-timber block">📍 Soweto, Katutura</span>
+            <span class="text-[10px] text-ebc-textMuted">Windhoek, Khomas Region, Namibia</span>
+          </div>
+        </div>
+
+        <!-- Right: Contact Details (6 Cols) -->
+        <div class="lg:col-span-6 space-y-6">
+          <div>
+            <span class="text-xs font-bold tracking-widest text-ebc-terracotta uppercase block mb-2">
+              Find & Reach Us
+            </span>
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-ebc-timber tracking-tight mb-4">
+              Visit Evangelical Bible Church
+            </h2>
+            <p class="text-ebc-textMuted text-sm sm:text-base leading-relaxed font-light">
+              We gather in the heart of Soweto, Katutura. Feel free to contact our church administration for any guidance or prayer requests.
+            </p>
+          </div>
+
+          <div class="space-y-4">
+            
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-ebc-sand border border-ebc-sandBorder">
+              <div class="w-10 h-10 rounded-xl bg-ebc-timber text-white flex items-center justify-center shrink-0">
+                <i data-lucide="map-pin" class="w-5 h-5 text-ebc-goldLight"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-ebc-timber text-sm">Physical Address</h4>
+                <p class="text-xs sm:text-sm text-ebc-textMuted mt-0.5">Soweto, Katutura Central, Windhoek, Khomas Region, Namibia</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-ebc-sand border border-ebc-sandBorder">
+              <div class="w-10 h-10 rounded-xl bg-ebc-timber text-white flex items-center justify-center shrink-0">
+                <i data-lucide="mail" class="w-5 h-5 text-ebc-goldLight"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-ebc-timber text-sm">Email Inquiries</h4>
+                <a href="mailto:ebcsowetonamibia@gmail.com" class="text-xs sm:text-sm text-ebc-terracotta hover:underline font-medium mt-0.5 block">
+                  ebcsowetonamibia@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-ebc-sand border border-ebc-sandBorder">
+              <div class="w-10 h-10 rounded-xl bg-ebc-terracotta text-white flex items-center justify-center shrink-0">
+                <i data-lucide="facebook" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-ebc-timber text-sm">Facebook Official Page</h4>
+                <a href="https://facebook.com/EBCSowetoNamibia" target="_blank" rel="noopener" class="text-xs sm:text-sm text-ebc-terracotta hover:underline font-medium mt-0.5 block">
+                  facebook.com/EBCSowetoNamibia
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <div>
+            <a href="https://maps.google.com/?q=Katutura+Soweto+Windhoek+Namibia" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-ebc-terracotta hover:bg-ebc-terracottaDark text-white px-6 py-3.5 rounded-2xl font-bold text-sm shadow transition">
+              <i data-lucide="navigation" class="w-4 h-4"></i>
+              <span>Open in Google Maps →</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- 11. FOOTER (WARM TIMBER THEME)             -->
+  <!-- ========================================== -->
+  <footer class="bg-ebc-timber text-[#E2D6C3] pt-16 pb-12 border-t border-[#3D291D]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-[#3D291D]">
+        
+        <!-- Col 1: About EBC -->
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-xl bg-white p-0.5">
+              <img src="assets/church_profile.png" alt="EBC Logo" class="w-full h-full object-cover rounded-lg">
+            </div>
+            <div>
+              <h3 class="font-serif font-bold text-white text-lg leading-tight">Evangelical Bible Church</h3>
+              <span class="text-[11px] text-ebc-goldLight font-semibold uppercase tracking-wider block">Soweto, Namibia</span>
+            </div>
+          </div>
+          <p class="text-xs text-[#C4B39F] leading-relaxed mb-5 font-light">
+            An Evangelical, Bible-believing fellowship in Katutura, Windhoek, committed to the worship of God, biblical preaching, and loving community.
+          </p>
+          <div class="flex items-center space-x-3 text-gray-300">
+            <a href="https://facebook.com/EBCSowetoNamibia" target="_blank" rel="noopener" class="w-8 h-8 rounded-lg bg-white/10 hover:bg-white/20 flex items-center justify-center transition" title="Facebook">
+              <i data-lucide="facebook" class="w-4 h-4"></i>
+            </a>
+            <a href="mailto:ebcsowetonamibia@gmail.com" class="w-8 h-8 rounded-lg bg-white/10 hover:bg-white/20 flex items-center justify-center transition" title="Email">
+              <i data-lucide="mail" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="font-serif font-bold text-white text-base mb-4 tracking-wide">Quick Navigation</h4>
+          <ul class="space-y-2.5 text-xs text-[#C4B39F] font-medium">
+            <li><a href="#home" class="hover:text-white transition">Home Page</a></li>
+            <li><a href="#about" class="hover:text-white transition">About Our Church</a></li>
+            <li><a href="#schedule" class="hover:text-white transition">Service Times</a></li>
+            <li><a href="#media" class="hover:text-white transition">Sermons & Livestreams</a></li>
+            <li><a href="#ministries" class="hover:text-white transition">Ministries</a></li>
+            <li><a href="#visit" class="hover:text-white transition">Plan Your Visit</a></li>
+            <li><a href="#give" class="hover:text-white transition">Giving / Tithes</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Gathering Times -->
+        <div>
+          <h4 class="font-serif font-bold text-white text-base mb-4 tracking-wide">Weekly Gatherings</h4>
+          <ul class="space-y-2.5 text-xs text-[#C4B39F]">
+            <li>
+              <strong class="text-white block font-bold">Sunday Services</strong>
+              <span class="text-ebc-gold font-semibold">08:45 AM</span> : Morning Worship Service<br>
+              <span class="text-white font-medium">05:00 PM</span> : Sunday Bible Study
+            </li>
+            <li class="pt-2 border-t border-white/10">
+              <strong class="text-white block font-bold">Thursday</strong>
+              <span class="text-white font-medium">06:00 PM</span> : Corporate Prayer Meeting
+            </li>
+            <li class="pt-2 border-t border-white/10">
+              <strong class="text-white block font-bold">Friday</strong>
+              <span class="text-white font-medium">05:30 PM</span> : Youth Fellowship Meeting
+            </li>
+            <li class="pt-2 border-t border-white/10">
+              <strong class="text-white block font-bold">Saturday</strong>
+              <span class="text-white font-medium">06:00 PM</span> : Young Adults Meeting
+            </li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Office -->
+        <div>
+          <h4 class="font-serif font-bold text-white text-base mb-4 tracking-wide">Contact Details</h4>
+          <ul class="space-y-3 text-xs text-[#C4B39F]">
+            <li class="flex items-start gap-2.5">
+              <i data-lucide="map-pin" class="w-4 h-4 text-ebc-terracottaLight shrink-0 mt-0.5"></i>
+              <span>Soweto, Katutura<br>Windhoek, Khomas, Namibia</span>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="mail" class="w-4 h-4 text-ebc-terracottaLight shrink-0"></i>
+              <a href="mailto:ebcsowetonamibia@gmail.com" class="hover:text-white transition">ebcsowetonamibia@gmail.com</a>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="facebook" class="w-4 h-4 text-ebc-terracottaLight shrink-0"></i>
+              <a href="https://facebook.com/EBCSowetoNamibia" target="_blank" rel="noopener" class="hover:text-white transition">@EBCSowetoNamibia</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+        <p>&copy; 2026 Evangelical Bible Church (EBC) Soweto. All rights reserved.</p>
+        <p class="italic text-gray-400">Soli Deo Gloria • To God Alone Be the Glory</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- JavaScript Interactivity -->
+  <script>
+    lucide.createIcons();
+
+    // Mobile Drawer Toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const closeDrawerBtn = document.getElementById('close-drawer-btn');
+    const mobileDrawer = document.getElementById('mobile-drawer');
+    const mobilePanel = document.getElementById('mobile-panel');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    function openMobileMenu() {
+      mobileDrawer.classList.remove('opacity-0', 'pointer-events-none');
+      mobilePanel.classList.remove('translate-x-full');
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closeMobileMenu() {
+      mobileDrawer.classList.add('opacity-0', 'pointer-events-none');
+      mobilePanel.classList.add('translate-x-full');
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    mobileBtn?.addEventListener('click', openMobileMenu);
+    closeDrawerBtn?.addEventListener('click', closeMobileMenu);
+    mobileDrawer?.addEventListener('click', (e) => {
+      if (e.target === mobileDrawer) closeMobileMenu();
+    });
+    mobileLinks.forEach(link => link.addEventListener('click', closeMobileMenu));
+
+    // Sticky Header Nav Effect
+    window.addEventListener('scroll', () => {
+      const header = document.getElementById('site-header');
+      if (window.scrollY > 30) {
+        header.classList.add('nav-scrolled');
+      } else {
+        header.classList.remove('nav-scrolled');
+      }
+    });
+
+    // Form Submission Handling
+    function handleVisitSubmit(e) {
+      e.preventDefault();
+      document.getElementById('visit-form').reset();
+      const success = document.getElementById('visit-success');
+      success.classList.remove('hidden');
+      setTimeout(() => {
+        success.classList.add('hidden');
+      }, 6000);
+    }
+  </script>
+</body>
+</html>
