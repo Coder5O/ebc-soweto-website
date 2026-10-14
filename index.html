@@ -389,7 +389,7 @@
             </p>
           </div>
           <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between text-xs text-ebc-textMuted">
-            <span>Main Hall & Sanctuary</span>
+            <span>EBC Soweto</span>
             <span class="font-bold text-ebc-timber">17:00 (5:00 PM)</span>
           </div>
         </div>
@@ -409,7 +409,7 @@
             </p>
           </div>
           <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between text-xs text-ebc-textMuted">
-            <span>Sanctuary & Online</span>
+            <span>EBC Soweto</span>
             <span class="font-bold text-ebc-timber">18:00 (6:00 PM)</span>
           </div>
         </div>
@@ -429,7 +429,7 @@
             </p>
           </div>
           <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between text-xs text-ebc-textMuted">
-            <span>Youth Center / Hall</span>
+            <span>EBC Soweto</span>
             <span class="font-bold text-ebc-timber">17:30 (5:30 PM)</span>
           </div>
         </div>
@@ -449,7 +449,7 @@
             </p>
           </div>
           <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between text-xs text-ebc-textMuted">
-            <span>Fellowship Hall</span>
+            <span>EBC Soweto</span>
             <span class="font-bold text-ebc-timber">18:00 (6:00 PM)</span>
           </div>
         </div>
@@ -880,22 +880,23 @@
 
             <form id="visit-form" onsubmit="handleVisitSubmit(event)" class="space-y-4">
               <div>
-                <label class="block text-xs font-bold uppercase text-ebc-timber mb-1">Your Full Name</label>
-                <input type="text" required placeholder="e.g. Maria Nuuyoma" class="w-full px-4 py-3 rounded-xl border border-ebc-sandBorder bg-ebc-sand/40 focus:outline-none focus:ring-2 focus:ring-ebc-terracotta/40 text-sm">
+                <label for="visitor-name" class="block text-xs font-bold uppercase text-ebc-timber mb-1">Your Full Name</label>
+                <input type="text" id="visitor-name" name="name" required placeholder="e.g. Maria Nuuyoma" class="w-full px-4 py-3 rounded-xl border border-ebc-sandBorder bg-ebc-sand/40 focus:outline-none focus:ring-2 focus:ring-ebc-terracotta/40 text-sm">
               </div>
 
               <div>
-                <label class="block text-xs font-bold uppercase text-ebc-timber mb-1">WhatsApp / Phone Number</label>
-                <input type="tel" required placeholder="e.g. +264 81 123 4567" class="w-full px-4 py-3 rounded-xl border border-ebc-sandBorder bg-ebc-sand/40 focus:outline-none focus:ring-2 focus:ring-ebc-terracotta/40 text-sm">
+                <label for="visitor-phone" class="block text-xs font-bold uppercase text-ebc-timber mb-1">WhatsApp / Phone Number</label>
+                <input type="tel" id="visitor-phone" name="phone" required placeholder="e.g. +264 81 123 4567" class="w-full px-4 py-3 rounded-xl border border-ebc-sandBorder bg-ebc-sand/40 focus:outline-none focus:ring-2 focus:ring-ebc-terracotta/40 text-sm">
               </div>
 
               <div>
-                <label class="block text-xs font-bold uppercase text-ebc-timber mb-1">Planned Sunday Date</label>
-                <input type="date" required class="w-full px-4 py-3 rounded-xl border border-ebc-sandBorder bg-ebc-sand/40 focus:outline-none focus:ring-2 focus:ring-ebc-terracotta/40 text-sm text-gray-700">
+                <label for="visitor-date" class="block text-xs font-bold uppercase text-ebc-timber mb-1">Planned Sunday Date</label>
+                <input type="date" id="visitor-date" name="date" required class="w-full px-4 py-3 rounded-xl border border-ebc-sandBorder bg-ebc-sand/40 focus:outline-none focus:ring-2 focus:ring-ebc-terracotta/40 text-sm text-gray-700">
               </div>
 
-              <button type="submit" class="w-full py-3.5 bg-ebc-terracotta hover:bg-ebc-terracottaDark text-white font-bold rounded-xl shadow-md transition text-sm">
-                Submit & Plan My Visit →
+              <button type="submit" id="visit-submit-btn" class="w-full py-3.5 bg-ebc-terracotta hover:bg-ebc-terracottaDark text-white font-bold rounded-xl shadow-md transition text-sm flex items-center justify-center gap-2">
+                <span>Submit & Plan My Visit</span>
+                <span>→</span>
               </button>
             </form>
 
@@ -928,46 +929,6 @@
         </p>
       </div>
 
-      <!-- Bank Transfer Information Card -->
-      <div class="max-w-xl mx-auto bg-white rounded-3xl p-8 text-ebc-textMain shadow-2xl border border-ebc-sandBorder">
-        <div class="flex items-center justify-between pb-4 border-b border-gray-100 mb-6">
-          <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-xl bg-amber-100 text-ebc-terracotta flex items-center justify-center font-bold">
-              <i data-lucide="landmark" class="w-5 h-5"></i>
-            </div>
-            <div>
-              <span class="text-xs uppercase font-bold text-gray-400 block">Bank Transfer (EFT Namibia)</span>
-              <h4 class="font-bold text-ebc-timber text-lg">Electronic Giving Details</h4>
-            </div>
-          </div>
-          <span class="text-xs font-bold bg-orange-100 text-orange-800 px-2.5 py-1 rounded-full">Namibia</span>
-        </div>
-
-        <div class="space-y-3.5 text-sm">
-          <div class="flex justify-between py-2 border-b border-gray-50">
-            <span class="text-ebc-textMuted font-medium">Account Name:</span>
-            <span class="font-bold text-ebc-timber">Evangelical Bible Church Soweto</span>
-          </div>
-          <div class="flex justify-between py-2 border-b border-gray-50">
-            <span class="text-ebc-textMuted font-medium">Location:</span>
-            <span class="font-bold text-ebc-timber">Windhoek, Namibia</span>
-          </div>
-          <div class="flex justify-between py-2 border-b border-gray-50">
-            <span class="text-ebc-textMuted font-medium">Recommended Ref:</span>
-            <span class="font-bold text-ebc-terracotta">Tithe / Offering / [Your Name]</span>
-          </div>
-        </div>
-
-        <div class="mt-6 pt-4 border-t border-gray-100 flex flex-col sm:flex-row gap-3">
-          <a href="mailto:ebcsowetonamibia@gmail.com?subject=Church%20Offering%20Inquiry" class="flex-1 py-3 text-center bg-ebc-terracotta hover:bg-ebc-terracottaDark text-white font-bold rounded-xl transition text-xs sm:text-sm">
-            Request Bank Details by Email
-          </a>
-          <a href="https://facebook.com/EBCSowetoNamibia" target="_blank" rel="noopener" class="flex-1 py-3 text-center bg-ebc-sand hover:bg-ebc-sandDark text-ebc-timber font-bold rounded-xl transition text-xs sm:text-sm flex items-center justify-center gap-1.5">
-            <i data-lucide="message-circle" class="w-4 h-4"></i>
-            <span>Inquire on Facebook</span>
-          </a>
-        </div>
-      </div>
 
     </div>
   </section>
@@ -1204,16 +1165,72 @@
       }
     });
 
-    // Form Submission Handling
-    function handleVisitSubmit(e) {
+  </script>
+
+  <!-- ========================================== -->
+  <!-- FIREBASE BACKEND INTEGRATION               -->
+  <!-- ========================================== -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-app.js";
+    import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyA8nJtrAEmtD8hWyn4mm6Z1pRrhzmtkTXA",
+      authDomain: "ebc-soweto-website.firebaseapp.com",
+      projectId: "ebc-soweto-website",
+      storageBucket: "ebc-soweto-website.firebasestorage.app",
+      messagingSenderId: "1091154063784",
+      appId: "1:1091154063784:web:b2189c7fea0768975dad9d"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    window.handleVisitSubmit = async function(e) {
       e.preventDefault();
-      document.getElementById('visit-form').reset();
-      const success = document.getElementById('visit-success');
-      success.classList.remove('hidden');
-      setTimeout(() => {
-        success.classList.add('hidden');
-      }, 6000);
-    }
+      const form = document.getElementById('visit-form');
+      const submitBtn = document.getElementById('visit-submit-btn');
+      const successBox = document.getElementById('visit-success');
+
+      const name = document.getElementById('visitor-name').value.trim();
+      const phone = document.getElementById('visitor-phone').value.trim();
+      const date = document.getElementById('visitor-date').value;
+
+      if (!name || !phone || !date) return;
+
+      const originalBtnHtml = submitBtn.innerHTML;
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = `<span>Saving...</span>`;
+
+      try {
+        await addDoc(collection(db, "visit_requests"), {
+          name: name,
+          phone: phone,
+          plannedDate: date,
+          status: "new",
+          submittedAt: serverTimestamp()
+        });
+
+        form.reset();
+        successBox.classList.remove('hidden');
+        submitBtn.innerHTML = `<span>✓ Received!</span>`;
+        submitBtn.classList.remove('bg-ebc-terracotta', 'hover:bg-ebc-terracottaDark');
+        submitBtn.classList.add('bg-emerald-600', 'hover:bg-emerald-700');
+
+        setTimeout(() => {
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = originalBtnHtml;
+          submitBtn.classList.remove('bg-emerald-600', 'hover:bg-emerald-700');
+          submitBtn.classList.add('bg-ebc-terracotta', 'hover:bg-ebc-terracottaDark');
+          successBox.classList.add('hidden');
+        }, 7000);
+      } catch (err) {
+        console.error("Error submitting visit request:", err);
+        alert("We encountered an issue saving your request. Please try again or reach out to ebcsowetonamibia@gmail.com directly.");
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalBtnHtml;
+      }
+    };
   </script>
 </body>
 </html>
